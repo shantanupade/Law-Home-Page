@@ -1,0 +1,134 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Montserrat', sans-serif;
+    background: #2b2922;
+    color: #fff;
+    overflow: auto;
+}
+
+.header-text{
+    height: 50vh;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 50px;
+    height: 20vh;
+}
+
+nav .logo{
+    width: 100px;
+    
+}
+
+ul{
+    display: flex;
+    align-items: center;
+    list-style: none;
+    gap: 50px;
+    font-size: 15px;
+    font-weight: 100;
+}
+
+ul li:nth-child(1){
+    font-weight: 600;
+}
+
+.button-small{
+    border: 1px solid;
+    padding: 10px 30px;
+    border-radius: 5px;
+    background-color: #2b2922;
+    color: #998935;
+    border-color: #998935;
+}
+
+.header-text{
+    display: flex;
+    flex-direction: row ;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 50px;
+    height: 30vh;
+}
+
+.header-text .header-heading{
+    font-size: 60px;
+    font-weight: 600;
+    color: #fff;
+}
+
+.header-text .header-text-small{
+    font-size: 20px;
+    font-weight: 100;
+    color: #fff;
+}
+
+
+.hero-section{
+    margin-top: 50px;
+    height: 500px;
+}
+
+.hero-img img{
+    position: absolute;
+    height: 500px;
+    width: 100%;
+    object-fit: cover;
+    object-position: 0px -200px;
+    display: block;
+}
+
+footer{
+    bottom:0;
+    position: relative;
+    left: 510px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height:100px;
+}
+
+
+footer .left-arrow{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100px;
+    height: 100px;
+    background-color: #39372d;
+}
+
+
+footer .right-arrow{
+    display: flex;
+    /* border: 2px solid red; */
+    justify-content: center;
+    align-items: center;
+    width: 100px;
+    height: 100px;
+    background-color: #a08f36 ;
+}
+
+footer .left-arrow span{
+    color: #a08f36;
+    border: 1px solid #a08f36;
+    padding: 10px 15px;
+    border-radius: 50px;
+}
+
+footer .right-arrow span{
+    color: #fff;
+    border: 1px solid #ffffff;
+    padding: 10px 15px;
+    border-radius: 50px;
+}
+
+
